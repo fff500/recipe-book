@@ -1,5 +1,6 @@
-import {Component, ElementRef, EventEmitter, OnInit, Output, ViewChild} from '@angular/core';
+import {Component, OnInit, EventEmitter, Output, ViewChild, ElementRef} from '@angular/core';
 import {Ingredient} from '../../shared/ingredient.model';
+
 
 @Component({
   selector: 'app-shopping-list-edit',
@@ -15,6 +16,7 @@ export class ShoppingListEditComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
   addItem(event) {
     event.preventDefault();
     const name = this.nameInputRef.nativeElement.value;
