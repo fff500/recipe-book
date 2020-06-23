@@ -11,6 +11,8 @@ import {RecipeListComponent} from './recipes/recipe-list/recipe-list.component';
 import {RecipeItemComponent} from './recipes/recipe-list/recipe-item/recipe-item.component';
 import {RecipeDetailsComponent} from './recipes/recipe-details/recipe-details.component';
 
+import {DropdownDirective} from './shared/dropdown.directive';
+
 
 @NgModule({
   declarations: [
@@ -22,6 +24,7 @@ import {RecipeDetailsComponent} from './recipes/recipe-details/recipe-details.co
     RecipeListComponent,
     RecipeItemComponent,
     RecipeDetailsComponent,
+    DropdownDirective
   ],
   imports: [
     BrowserModule,
