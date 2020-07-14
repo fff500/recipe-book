@@ -9,11 +9,13 @@ import {ShoppingListEditComponent} from './shopping-list/shopping-list-edit/shop
 import {RecipesComponent } from './recipes/recipes.component';
 import {RecipeListComponent} from './recipes/recipe-list/recipe-list.component';
 import {RecipeItemComponent} from './recipes/recipe-list/recipe-item/recipe-item.component';
+import {RecipeSelectComponent} from './recipes/recipe-select/recipe-select.component';
 import {RecipeDetailsComponent} from './recipes/recipe-details/recipe-details.component';
 
 import {DropdownDirective} from './shared/dropdown.directive';
 
 import {ShoppingListService} from './shopping-list/shopping-list.service';
+import {RecipeEditComponent} from './recipes/recipe-edit/recipe-edit.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import {ShoppingListService} from './shopping-list/shopping-list.service';
     RecipesComponent,
     RecipeListComponent,
     RecipeItemComponent,
+    RecipeSelectComponent,
     RecipeDetailsComponent,
+    RecipeEditComponent,
     DropdownDirective
   ],
   imports: [
